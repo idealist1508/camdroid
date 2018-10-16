@@ -40,7 +40,7 @@ on init
     export FRAMEBUFFER  /dev/graphics/fb0
     export MG_CFG_PATH /
     export CAMLINUX_TMP_FILE /data/~mg_tmp
-    export MG_DEFAULTMODE "480x272-32bpp"
+    export MG_DEFAULTMODE "800x480-32bpp"
 	
 service startupSound /system/bin/startup_music /system/res/others/startup.wav
     class core
